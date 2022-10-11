@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+background: linear-gradient(259deg, rgba(2,0,36,1) 0%, rgba(8,8,79,1) 37%, rgba(0,212,255,1) 100%);
+}
+.container {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.card {
+    display: flex; 
+    flex-direction: column;
+    width: 150px;
+    height: 210px;
+    border: 3px solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    transition: 1s;
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+.img {
+min-width: 100%;
+min-height: 100%;
+}
+  .img:hover {
+    transform:scale(1.5)
+    
+  }
+  .img {
+    transition: 2s;
+  }
